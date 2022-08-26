@@ -18,4 +18,11 @@ public class AppTest
 
         assertTrue( true, Thread.currentThread().getName());
     }
+
+    @Test
+    public void testThreadToString()
+    {
+
+        assertTrue( true, Thread.currentThread().toString());
+    }
 }
